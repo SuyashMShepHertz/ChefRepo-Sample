@@ -1,3 +1,5 @@
 {
-  "id": "tomcat"
+  "id": "tomcat",
+  "warURL": "http://cdn.shephertz.com/repository/files/0b26c41b452832e42f606729ccb33be33103cc16898fa73d9db2ad6415fc589e/7f693025398d168516ced73810b0cdf53bebb0c5/Root.war",
+  "warFile": "ROOT.war"
 }
