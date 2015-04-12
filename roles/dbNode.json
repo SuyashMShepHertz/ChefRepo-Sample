@@ -2,8 +2,6 @@
   "name": "dbNode",
   "description": "Setup DB Node",
   "run_list": [
-    "recipe[mysql]",
-    "recipe[database]",
     "recipe[setupDBNode]"
   ]
 }
