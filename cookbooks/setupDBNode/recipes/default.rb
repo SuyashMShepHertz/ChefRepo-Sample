@@ -6,3 +6,20 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+config = data_bag_item("dbConfig", "mysql")
+
+mysql_service 'default' do
+	port config["port"]
+	initial_root_password config["rootPassword"]
+	action [:create, :start]
+end
+
+mysql_database config["dbName"] do
+	connection(
+		:host => '127.0.0.1',
+		:username => config["user"],
+		:password => config["password"]	
+	)
+	action :create
+end
