@@ -1,4 +1,9 @@
 {
   "name": "webNode",
-  "description": "Setup Web Node"
+  "description": "Setup Web Node",
+  "run_list": [
+    "recipe[java]",
+    "recipe[tomcat]",
+    "recipe[setupWebNode]"
+  ]
 }
