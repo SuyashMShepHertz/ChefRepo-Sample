@@ -3,6 +3,6 @@
   "port": "3306",
   "rootPassword": "root",
   "dbName": "database",
-  "username": "app42",
+  "user": "app42",
   "password": "app42"
 }
