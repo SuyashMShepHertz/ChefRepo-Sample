@@ -1,4 +1,8 @@
 {
   "name": "appServerNode",
-  "description": "Setup App Server Node"
+  "description": "Setup App Server Node",
+  "run_list": [
+    "recipe[apt]",
+    "recipe[apache2]"
+  ]
 }
