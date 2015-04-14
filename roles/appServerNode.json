@@ -3,6 +3,6 @@
   "description": "Setup App Server Node",
   "run_list": [
     "recipe[apt]",
-    "recipe[apache2]"
+    "recipe[setupAppServerNode]"
   ]
 }

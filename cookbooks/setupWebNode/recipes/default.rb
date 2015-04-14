@@ -20,6 +20,7 @@ end
 
 remote_file "#{node["tomcat"]["webapp_dir"]}/#{config["warFile"]}" do
 	source config["warURL"]
+	mode '0777'
 end
 
 service 'tomcat6' do
