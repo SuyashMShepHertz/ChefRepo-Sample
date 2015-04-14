@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD:cookbooks/database/metadata.json
   "name": "database",
   "version": "4.0.5",
   "description": "provides LWRPs for common database tasks",
@@ -19,37 +18,6 @@
   },
   "dependencies": {
     "postgresql": ">= 1.0.0"
-=======
-  "name": "mysql",
-  "version": "6.0.21",
-  "description": "Provides mysql_service, mysql_config, and mysql_client resources",
-  "long_description": "",
-  "maintainer": "Chef Software, Inc.",
-  "maintainer_email": "cookbooks@chef.io",
-  "license": "Apache 2.0",
-  "platforms": {
-    "amazon": ">= 0.0.0",
-    "redhat": ">= 0.0.0",
-    "centos": ">= 0.0.0",
-    "scientific": ">= 0.0.0",
-    "fedora": ">= 0.0.0",
-    "debian": ">= 0.0.0",
-    "ubuntu": ">= 0.0.0",
-    "smartos": ">= 0.0.0",
-    "omnios": ">= 0.0.0",
-    "suse": ">= 0.0.0"
-  },
-  "dependencies": {
-<<<<<<< HEAD:cookbooks/database/metadata.json
-    "openssl": "~> 1.1",
-    "build-essential": "~> 1.4",
-    "homebrew": ">= 0.0.0",
-    "windows": ">= 0.0.0"
->>>>>>> chef-vendor-mysql:cookbooks/mysql/metadata.json
-=======
-    "yum-mysql-community": ">= 0.0.0",
-    "smf": ">= 0.0.0"
->>>>>>> chef-vendor-mysql:cookbooks/mysql/metadata.json
   },
   "recommendations": {
   },
